@@ -1,53 +1,139 @@
-# Sandesh Makhija — Luxury Interactive Developer Portfolio
+# 🌐 Sandesh Makhija — Interactive Developer Portfolio
 
-An award-winning, immersive, and highly performant developer portfolio designed for **Sandesh Makhija**, Software Engineer, AI Developer, and Computer Science Scholar.
-
----
-
-## 🎨 Design Philosophy & Aesthetic Identity
-
-This portfolio deviates from generic layouts and implements a custom **Luxury Dark Grid System** inspired by Apple, Stripe, and Vercel. 
-
-Key design elements:
-- **Display Typography**: Paired high-tech Display Grotesque headings (`Space Grotesk`) with geometric Monospace accents (`JetBrains Mono`) for data feeds and telemetry gauges.
-- **Glassmorphism**: Translucent card structures (`luxury-glass`) with custom saturation, heavy blur, and micro-thin borders.
-- **Micro-Glows**: Accent colors mapped to soft golden (`#D4AF37`) and cyan (`#06B6D4`) text shadows and container backlights.
-- **Custom Cursor with Inertia**: Fluid cursor follow dot with responsive scaling and text tooltips mapped to hover triggers.
+A modern, interactive developer portfolio showcasing my projects, technical skills, and academic journey in **Software Engineering**, **Artificial Intelligence**, and **Computer Science**. Built with a focus on performance, immersive user experience, and responsive design.
 
 ---
 
-## 🚀 Technical Core & 3D Engineering
+# 🎨 Design Philosophy
 
-### 1. Interactive 3D WebGL Canvas
-Implemented using vanilla **Three.js** on a React canvas:
-- **Central Glass Cube**: Multi-layered, nesting, double-sided wireframe geometries with standard metallic materials that rotate at individual speeds.
-- **Particle System**: An ambient, floating field of 350+ neon points that respond gravitationally to mouse movements.
-- **Perspective Flooring Helper**: Structured 100x100 horizon perspective lines creating high depth-of-field.
-- **Performance Optimizations**: Fully debounced `ResizeObserver` handlers, frame-rate dampening, and memory clearing (geometries, materials, and point lights are fully disposed on component unmount to prevent GPU leaks).
+The portfolio features a custom **dark-themed interface** inspired by modern product websites, emphasizing clarity, interactivity, and smooth user experience.
 
-### 2. Micro-Animations with Framer Motion (`motion/react`)
-- Seamless **Loader** featuring organic count-up loops and high-tech diagnostic diagnostic text streams.
-- Smooth card-scale reveal transitions on layout-scrolling using viewport intersection.
-- Liquid project detail overlay drawer animations with blur reveal.
+### Design Highlights
 
-### 3. Developer Telemetry Dashboard
-- Custom **GitHub Heatmap** simulating 364 floating days of active contribution nodes with hover state density counters.
-- Core diagnostic counters trackingcommits, pull requests, merges, and academic stats.
+* Modern typography using **Space Grotesk** and **JetBrains Mono**
+* Glassmorphism-inspired UI with translucent cards and subtle blur effects
+* Gold and cyan accent colors for visual hierarchy
+* Responsive custom cursor with smooth motion and contextual hover interactions
+* Fully responsive layout optimized for desktop, tablet, and mobile devices
 
 ---
 
-## 📦 Technology Armory
+# 🚀 Core Features
 
-- **Frontend Core**: React 19 (Functional Components, Hook States, Context), TypeScript
-- **Bundler**: Vite 6.0
-- **Aesthetic Utilities**: Tailwind CSS v4, Lucide React (Dynamic Vector Icons)
-- **Physics & Graphics**: Three.js (WebGL Canvas Rendering)
-- **Animation Systems**: Framer Motion (`motion/react`)
+## 🎮 Interactive 3D Experience
+
+Built using **Three.js** to create an engaging landing experience.
+
+Features include:
+
+* Animated glass cube with layered wireframe geometry
+* Interactive particle system reacting to cursor movement
+* Perspective grid floor for enhanced depth perception
+* Optimized rendering with efficient memory management and cleanup
+* Responsive canvas resizing for different screen sizes
 
 ---
 
-## 🛠️ Performance & Compliance Benchmarks
+## ✨ Smooth User Experience
 
-- **Lighthouse Performance Score**: `>95` (achieved by compiling highly lightweight ThreeJS canvas structures without heavy third-party bundles, utilizing CSS-based fallbacks for WebGL, and utilizing optimized raster assets).
-- **Accessibility (a11y)**: `>95` (all interactive components have structured keyboard focus states, aria-labels, high contrast text scales, and touch points matching the standard `44px` target dimensions).
-- **Device Support**: Fully customized Mobile layout scaling, touch-optimizing, and repositioning visual blocks instead of standard shrinkages.
+Implemented with **Framer Motion** to provide fluid interactions.
+
+Includes:
+
+* Animated loading screen
+* Scroll-triggered section animations
+* Smooth project transitions
+* Interactive hover effects
+* Motion-based page elements
+
+---
+
+## 📊 Developer Dashboard
+
+An interactive section displaying development activity and technical statistics.
+
+Features include:
+
+* GitHub-style contribution heatmap
+* Academic highlights
+* Project statistics
+* Development metrics
+* Interactive data visualizations
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+* React 19
+* TypeScript
+* Vite
+
+### Styling
+
+* Tailwind CSS v4
+* Lucide React Icons
+
+### Graphics
+
+* Three.js (WebGL)
+
+### Animation
+
+* Framer Motion
+
+---
+
+# ⚡ Performance
+
+The portfolio is designed with performance and accessibility in mind.
+
+* Optimized asset loading
+* Efficient Three.js rendering
+* Lazy-loaded components
+* Responsive layouts
+* Smooth 60 FPS animations on supported devices
+* Memory-efficient WebGL cleanup
+* Lightweight production build
+
+---
+
+# ♿ Accessibility
+
+Accessibility considerations include:
+
+* Keyboard navigation support
+* Semantic HTML structure
+* ARIA labels for interactive elements
+* High-contrast color combinations
+* Touch-friendly interactive components
+* Responsive typography and spacing
+
+---
+
+# 📱 Responsive Design
+
+The portfolio is fully optimized across multiple devices.
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Layouts are adapted for each screen size rather than simply scaled down, ensuring a consistent user experience.
+
+---
+
+# 🎯 Project Goals
+
+This portfolio was built to demonstrate:
+
+* Modern React development
+* Interactive UI/UX design
+* 3D web graphics with Three.js
+* Animation using Framer Motion
+* Responsive web design
+* Frontend performance optimization
+* Clean component architecture
+* TypeScript best practices
